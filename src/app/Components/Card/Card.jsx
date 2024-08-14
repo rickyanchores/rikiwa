@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({imageUrl,name,quote}) => {
   return (
-    <div className='Card bg-zinc-700 p-4 rounded-lg'>
-        <img className="watch Image" src="" alt="watch image" />
-        <p>Riki Watanabe</p>
+    <div className='Card  p-4 mt-4'>
+        <img className="watch Image" src={imageUrl} alt="watch image" />
+        <div className="description mt-2">
+          <h1 className='font-bold mb-2'>{name}</h1>
+          <p>"{quote}"</p>
+        </div>
+
     </div>
   )
 }
