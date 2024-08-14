@@ -1,5 +1,9 @@
 import React from 'react'
 import Card from './Components/Card/Card';
+import Navbar from './Components/Nav/Navbar';
+import Hero from './Pages/Hero/Hero';
+import Gallery from './Pages/Gallery/Gallery';
+import About from './Pages/About/About';
 
 const Home = () => {
 
@@ -17,9 +21,9 @@ const Home = () => {
       ]
 
   return (
-    <div className='Main'>
-        <h1>rikiwa</h1>
-        <h1>"Home of your time"</h1>
+    <div className='Home min-h-screen'>
+      <Navbar />
+      <Hero />
         <div className="cards-containe grid grid-cols-1 md:grid-cols-2 gap-4">
           {cards.map((card,index) => (
             <Card
@@ -27,6 +31,8 @@ const Home = () => {
             />
           ))}
         </div>
+      <Gallery />
+      <About />
     </div>
   )
 }
