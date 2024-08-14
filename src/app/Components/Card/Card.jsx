@@ -6,7 +6,7 @@ const Card = ({imageUrl,name,quote}) => {
         <img className="watch Image size-64" src={imageUrl} alt="watch image"/>
         <div className="description mt-2 p-4">
           <h1 className='font-bold mb-2'>{name}</h1>
-          <p>"{quote}"</p>
+          <p>{quote}</p>
         </div>
 
     </div>
