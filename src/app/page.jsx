@@ -4,7 +4,7 @@ import Navbar from './Components/Nav/Navbar';
 import Hero from './Pages/Hero/Hero';
 import Gallery from './Pages/Gallery/Gallery';
 import About from './Pages/About/About';
-import WatchCard from './Components/WatchCard/WatchCard';
+import WatchNews from './Pages/WatchNews/WatchNews';
 
 const Home = () => {
 
@@ -33,7 +33,7 @@ const Home = () => {
           ))}
         </div>
       <Gallery />
-      <WatchCard />
+      <WatchNews />
       <About />
     </div>
   )
