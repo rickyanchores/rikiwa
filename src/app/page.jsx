@@ -6,6 +6,8 @@ import Gallery from './Pages/Gallery/Gallery';
 import About from './Pages/About/About';
 import WatchNews from './Pages/WatchNews/WatchNews';
 
+
+
 const Home = () => {
 
     let cards = [
