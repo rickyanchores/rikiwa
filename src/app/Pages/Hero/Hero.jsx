@@ -1,6 +1,7 @@
 import React from 'react'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
+
 const Hero = () => {
   return (
     <div className='Hero min-h-screen grid justify-center items-center p-4 text-white' id='Hero'>

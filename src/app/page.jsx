@@ -7,7 +7,6 @@ import WatchNews from './Pages/WatchNews/WatchNews';
 
 
 //IMPORTS
-import Link from "next/link";
 
 
 const Home = () => {
@@ -15,7 +14,6 @@ const Home = () => {
   return (
     <div className='Home min-h-screen'>
       <Navbar />
-      <Link href="./dashboard">Dashboard</Link>
       <Hero />
       <Gallery />
       <WatchNews />
